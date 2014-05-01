@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Soucefiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Soucefiles\md5">
+      <UniqueIdentifier>{cf02f873-f900-42d4-ad20-10422807295e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BEGUID-Skaronator.cpp">
+      <Filter>Soucefiles</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Soucefiles</Filter>
+    </ClCompile>
+    <ClCompile Include="md5\md5.cpp">
+      <Filter>Soucefiles\md5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="md5\md5.h">
+      <Filter>Soucefiles\md5</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

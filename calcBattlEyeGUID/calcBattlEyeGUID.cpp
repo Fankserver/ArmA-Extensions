@@ -24,11 +24,5 @@ void __stdcall RVExtension(char *output, int outputSize, const char *function) {
 		bestring << char(parts[i]);
 	}
 
-	//std::ofstream banFile("Skaronator_ServerCfg/BattlEye/bans.txt", std::ios::out | std::ios::app);
-	//if (banFile.is_open()) {
-	//	banFile << md5(bestring.str()) << " -1 Skaronator.com Autoban (Autoban Reason)" << std::endl;
-	//	banFile.close();
-	//}
-
 	strncpy(output, md5(bestring.str()).c_str(), outputSize);
 }
